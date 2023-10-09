@@ -545,7 +545,7 @@ function Footer() {
         { className: "footer" },
         _react2.default.createElement(
             "a",
-            { href: "www.linkedin.com/in/seth-kuhn-a1a9b3140", "aria-label": "LinkedIn" },
+            { href: "https://www.linkedin.com/in/seth-kuhn-a1a9b3140/", "aria-label": "LinkedIn" },
             _react2.default.createElement(
                 "svg",
                 { xmlns: "http://www.w3.org/2000/svg", width: "26", height: "26", viewBox: "0 0 26 26", fill: "none" },
@@ -622,7 +622,7 @@ function Info() {
             ),
             _react2.default.createElement(
                 "a",
-                { href: "www.linkedin.com/in/seth-kuhn-a1a9b3140", className: "button blue" },
+                { href: "https://www.linkedin.com/in/seth-kuhn-a1a9b3140/", className: "button blue" },
                 _react2.default.createElement(
                     "svg",
                     { xmlns: "http://www.w3.org/2000/svg", width: "16", height: "16", viewBox: "0 0 16 16", fill: "none" },
