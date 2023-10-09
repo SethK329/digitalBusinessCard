@@ -1,0 +1,133 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    width: 320px;
+    margin: 20px auto;
+    background-color: #23252C;
+    color: #DCDCDC;    
+    font-family: 'Inter', sans-serif;
+}
+
+img{
+    width: 100%;
+    object-fit: cover;
+    height: 375px;
+    border-radius: 10px 10px 0px 0px;
+
+}
+
+h1{
+    margin: 21px auto 6px;
+    font-size: 25px;
+    font-weight: 700;
+}
+
+section{
+    color: #DCDCDC;
+}
+
+a{
+    cursor: pointer;
+}
+
+.info{
+    text-align: center;
+    padding-bottom: 25px;
+    background: #1A1B21;
+}
+
+.info>h3{
+    color: #F3BF99;
+    font-size: 13px;
+    margin: 0 0 8px;
+}
+
+.info>a{
+    display: block;
+    margin: 0 auto 10px;
+    padding: .25em .5em;
+    font-size: 11px;
+    color: #f5f5f5;
+    text-decoration: none;
+    width: fit-content;
+}
+
+.info>a:visited{
+    color: #f5f5f5;
+}
+
+.button-container{
+    display: flex;
+    justify-content: space-between;
+    padding: 0 30px;
+}
+
+.button{
+    text-align: center;
+    background-color: #ffffff;
+    height: 34px;
+    width: 115px;
+    text-decoration: none;
+    color: #374151;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+    border-radius: 6px;
+    font-size: 14px;
+}
+
+.button.blue{
+    background-color: #5093E2;
+    color: white;
+}
+
+.button:hover,
+.button:focus{
+    box-shadow: 0px 0px 2px 4px #5093E2;
+}
+
+.button.blue:hover,
+.button.blue:focus{
+    box-shadow: 0px 0px 2px 4px white;
+}
+
+footer>a>svg:hover,
+footer>svg:hover{
+    background-color: white;
+    box-shadow: 0px 0px 2px 2px white;
+}
+
+.text-link:hover,
+.text-link:focus{
+    text-shadow: 0 0 2px #f5f5f5;
+}
+
+.about,
+.interests{
+    padding: 20px 30px;
+    font-size: 12px;
+    background: #1A1B21;
+    line-height: 150%;
+}
+
+.about>h3,
+.interests>h3{
+    margin-bottom: 5px;
+    font-weight: 700;
+    font-size: 16px;
+}
+
+.footer{
+    display: flex;
+    justify-content: center;
+    gap: 25px;
+    align-items: center;
+    padding: 15px;
+    background-color: #161619;
+    border-radius: 0px 0px 10px 10px;
+}
